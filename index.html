@@ -13,17 +13,25 @@
     
     
     <div class="middle">
-        <div class="grid">
+        <div class="grid-container">
+            <div class="grid">
+            </div>
+        </div>
+        <div class="button-area">
+            <button id="clear" onclick="clearGrid()">Clear Grid</button>
+            <p>Current Grid Size</p>
+            <button id="size" onclick="changeSize()">Change Grid Size</button>
         </div>
     </div>
- 
-    
-    <div class="button-area">
-        <button id="clear" onclick="clearGrid()">Clear Grid</button>
-        <p>Current Grid Size</p>
-        <button id="size" onclick="changeSize()">Change Grid Size</button>
-    </div>
 
+    <div class="footer">
+        <p id="dev">Developed and Designed by Tiago Moreira</p>
+        <a href="https://github.com/TFSM00">
+            <img src="GitHub-Mark-64px.png">
+        </a>
+        <p id="copyright">Copyright © 2022 TFSM00 </p>
+
+    </div>
 
     <script src="code.js">
     </script>

@@ -15,8 +15,49 @@ body {
     display: flex;
     justify-content: center;
     font-family: "PressStart2P";
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
 
 
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: aqua;
+    background-clip: border-box;
+    border-radius: 50px;
+    padding-top: 75px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.grid-container {
+
+}
+
+.grid {
+    display: grid;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;    
+}
+
+.cell {
+    border: 1px solid gray;
+    user-select: none;
+
+}
+
+.cell:hover {
+    background-color: aqua;
 }
 
 .button-area {
@@ -26,8 +67,10 @@ body {
     margin: auto;
     padding: 50px;
     width: 600px;
+    background-color: plum;
+    border-radius: 0px 0px 50px 50px;
     font-family: "PressStart2P";
-
+    
 }
 
 button {
@@ -41,34 +84,30 @@ p {
     width: 250px;
 }
 
-.middle {
+
+.footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
     width: fit-content;
     height: fit-content;
-    border: 50px solid aqua;
-    border-radius: 50px;
+    gap: 20px;
+}
+
+#dev {
+    text-align: center;
     margin: auto;
-    
+    width: 200px;
 }
 
-.grid {
-    display: grid;
-    width: 500px;
-    height: 500px;
-    background-color: white;
-    
-}
+#copyright {
+    text-align: center;
+    margin: auto;
+    width: 200px;
 
 
-
-
-.cell {
-    border: 1px solid gray;
-    user-select: none;
-
-}
-
-.cell:hover {
-    background-color: aqua;
 }
